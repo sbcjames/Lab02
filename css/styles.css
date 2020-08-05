@@ -1,0 +1,13 @@
+.center {
+  text-align: center;
+  border: 5px solid black;
+}
+
+body {
+  background-color: rgb(68, 164, 196);
+}
+
+h1 {
+  color: rgb(14, 14, 133);
+  margin-left: 20px;
+}
