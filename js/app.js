@@ -11,18 +11,26 @@ whatIsYourName()
 //question1//
 function goodMorning(){
   var question1= prompt('Are you having a good morning?');
-  if(question1.toLowerCase() === 'yes' || question1.toLowerCase() === 'y'){answer1 = 'that is great, you will have a great day!';}
-  else if (question1.toLowerCase() === 'no' ||question1.toLowerCase() === 'n'){answer1 = 'That is ok because you are about to have a great day';}
+  if(question1.toLowerCase() === 'yes' || question1.toLowerCase() === 'y'){ ('that is great, you will have a great day!');
+  }
+  else if (question1.toLowerCase() === 'no' ||question1.toLowerCase() === 'n'){ ('That is ok because you are about to have a great day');
+  }
   else alert('I dont know what that was, but hang in there and try y or n or yes or no');
 }
 
 goodMorning()
 
 //question 2//
-var question2= prompt('Are you practicing your coding?');
-if(question2.toLowerCase() === 'yes' || question2.toLowerCase() === 'y'){answer2 = 'that is great, you are gonna be a pro someday!';}
-else if (question2.toLowerCase() === 'no' ||question2.toLowerCase() === 'n'){answer1 = 'That is ok keep practicing and do not forget to ask for help';}
-else alert('I dont know what that was, but hang in there and try y or n or yes or no');
+function practiceCoding(){
+  var question2= prompt('Are you practicing your coding?');
+  if(question2.toLowerCase() === 'yes' || question2.toLowerCase() === 'y'){ ('that is great, you are gonna be a pro someday!');
+  }
+  else if (question2.toLowerCase() === 'no' ||question2.toLowerCase() === 'n'){  ('That is ok keep practicing and do not forget to ask for help');
+  }
+  else alert('I dont know what that was, but hang in there and try y or n or yes or no');
+}
+
+practiceCoding()
 
 //question 3//
 var question3= prompt('Have you started creating a support network?');
