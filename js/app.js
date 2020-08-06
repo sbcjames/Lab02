@@ -51,7 +51,15 @@ function supportNetwork(){
 supportNetwork()
 
 //question 4//
-var question4= prompt('Are you keeping a positive mental attitude?');
-if(question4.toLowerCase() === 'yes' || question4.toLowerCase() === 'y'){answer1 = 'that is great, you are gonna make a ton of friends!';}
-else if (question4.toLowerCase() === 'no' ||question4.toLowerCase() === 'n'){answer1 = 'That is ok, do not be afraid to reach out to people in your industry';}
-else alert('I dont know what that was, but hang in there and try y or n or yes or no');
+function positiveMentalAttitude(){
+  var question4= prompt('Are you keeping a positive mental attitude?');
+  if(question4.toLowerCase() === 'yes' || question4.toLowerCase() === 'y'){
+    alert('that is great, you are gonna make a ton of friends!');
+  }
+  else if (question4.toLowerCase() === 'no' ||question4.toLowerCase() === 'n'){
+    alert('That is ok, do not be afraid to reach out to people in your industry');
+  }
+  else alert('I dont know what that was, but hang in there and try y or n or yes or no');
+}
+
+positiveMentalAttitude()
