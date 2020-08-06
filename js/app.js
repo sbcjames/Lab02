@@ -9,10 +9,14 @@ function whatIsYourName(){
 whatIsYourName()
 
 //question1//
-var question1= prompt('Are you having a good morning?');
-if(question1.toLowerCase() === 'yes' || question1.toLowerCase() === 'y'){answer1 = 'that is great, you will have a great day!';}
-else if (question1.toLowerCase() === 'no' ||question1.toLowerCase() === 'n'){answer1 = 'That is ok because you are about to have a great day';}
-else alert('I dont know what that was, but hang in there and try y or n or yes or no');
+function goodMorning(){
+  var question1= prompt('Are you having a good morning?');
+  if(question1.toLowerCase() === 'yes' || question1.toLowerCase() === 'y'){answer1 = 'that is great, you will have a great day!';}
+  else if (question1.toLowerCase() === 'no' ||question1.toLowerCase() === 'n'){answer1 = 'That is ok because you are about to have a great day';}
+  else alert('I dont know what that was, but hang in there and try y or n or yes or no');
+}
+
+goodMorning()
 
 //question 2//
 var question2= prompt('Are you practicing your coding?');
